@@ -1,0 +1,159 @@
+/* Apply a linear gradient background with different colors and shades*/
+body  {
+    background: linear-gradient(white, rgb(250, 79, 179),  rgb(255, 56, 172));
+    height: all;
+ }
+ /*to make the header in the top of the page and
+  Reset padding and margin for all elements, and set a consistent box-sizing model and font*/
+*{
+    padding: 0;
+    margin:0;
+    box-sizing :border-box;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+/* Style the header to be at the top of the page with a gradient background */
+header{
+    background: linear-gradient(#FFFFFF, rgb(255, 187, 227));
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-radius: 10%;
+}
+
+
+ 
+header h2{
+    font-size: 20px;
+}
+
+/* Style navigation list items in a horizontal layout */
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+/* Style the navigation links */
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    padding: 0 15px;
+    text-transform: capitalize;
+}
+/* to give the text the wanted styles and
+ Style for the .name class to give it unique text appearance */
+.name{
+    color:white;
+    text-shadow: 4px 5px 10px   rgba(0,0,0,.7);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 17%;
+    font-size: 30px;
+    transform: rotate(-4deg);
+}
+
+/* Styling for the .intro class with different properties than .name */
+.intro{
+    font-size: 28px;
+    color: black;
+    margin-top: 13%;
+    text-align: center;
+    font-weight: 150;
+}
+
+/**/
+.image{
+  
+    float: right;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit:cover;
+    box-shadow: 6px 6px 10px  rgba(0,0,0,.9);
+    margin-right: 30%;
+    margin-top: 3%;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+}    
+.hobbies{
+    color:white;
+    text-shadow: 4px 5px 10px   rgba(0,0,0,.7);
+    font-size: 30px;
+    margin-left: 24%;
+    margin-top: 5%;
+}
+
+
+.image1{
+    
+  object-fit: fill;
+  width: 250px;
+  height: 250px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+ box-shadow: 10px 10px 10px rgba(0,0,0,.7);
+ border-radius: 30%;
+ border: 3px solid rgba(0, 0, 0, 0.8);
+}
+
+.choice{
+    font-size: 28px;
+    color:black;
+    transition: color .15s;
+    margin-left: 26%;
+}
+
+.choice:hover{
+    color:whitesmoke;
+}
+
+.size{
+    font-size: 25px;
+    text-shadow: 4px 5px 10px   rgba(0,0,0,.9);
+    color:white;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 30px;
+    margin-bottom: 3%;
+}
+
+.text{
+    font-size: 28px;
+    color: black;
+    margin-left: 13%;
+    font-weight: 150;
+    margin-top: 5%;
+}
+.text-tx{
+    font-size: 28px;
+    color: black;
+}
+/* Button styling with hover effect */
+.button{
+    background-color: #FFFFFF;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-right:15px;
+    padding-left:15px;
+    font-size:large;
+    font-weight: 500;
+    color:white;
+    cursor: pointer;
+    transition:  padding-top 1s,padding-bottom 1s ,
+    padding-right 1s ,
+    padding-left 1s,box-shadow .15s ;
+    color:black;
+}
+/* Button hover effect for larger padding and shadow */
+.button:hover{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right:35px;
+    padding-left:35px;
+    box-shadow: 4px 5px 10px rgba(0,0,0,.5);
+  
+}
